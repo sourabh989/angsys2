@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Consultancy - Careers</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="logos/translogo.png" alt="Angular Consultancy Logo" class="logo-header">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="careers-form" data-aos="fade-up">
+      <h2>Join Our Team</h2>
+      <form action="mailto:hr@angcs.com" method="post" enctype="multipart/form-data">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+        
+        <label for="job-category">Job Category:</label>
+        <select id="job-category" name="job-category" required>
+          <option value="web-developer">Web Developer</option>
+          <option value="data-analyst">Data Analyst</option>
+          <option value="business-analyst">Business Analyst</option>
+          <option value="digital-marketing">Digital Marketing Professional</option>
+          <option value="other">Other</option>
+        </select>
+        
+        <label for="resume">Upload Resume (PDF, DOC):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        
+        <button type="submit">Submit Application</button>
+      </form>
+      <div id="form-success" class="success-message" style="display:none;">Your application has been submitted successfully!</div>
+    </section>
+  </main>
+  
+  <footer class="fixed-footer">
+    <img src="logos/logo.png" alt="Angular Consultancy Logo" class="logo-footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a> | 
+      <a href="about.html">About</a> | 
+      <a href="services.html">Services</a> | 
+      <a href="careers.html">Careers</a> | 
+      <a href="blog.html">Blog</a> | 
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>&copy; 2025 Angular Consultancy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

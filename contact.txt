@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Consultancy - Contact Us</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="logos/translogo.png" alt="Angular Consultancy Logo" class="logo-header">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="contact-form" data-aos="fade-up">
+      <h2>Contact Us – Let's Talk Hiring</h2>
+      <p><strong>Headquarters:</strong> London, UK</p>
+      <p><strong>Email:</strong> sales@angcs.com | info@angcs.com | support@angcs.com</p>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Submit & Download Brochure</button>
+      </form>
+    </section>
+    <div id="contactSuccess" class="success-popup" style="display:none;">
+      <p>Thank you! Your message has been sent.</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+    <!-- Chatbot Placeholder --> 
+    <div id="chatbot">[Chatbot integration goes here]</div>
+  </main>
+  
+  <footer class="fixed-footer">
+    <img src="logos/logo.png" alt="Angular Consultancy Logo" class="logo-footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a> | 
+      <a href="about.html">About</a> | 
+      <a href="services.html">Services</a> | 
+      <a href="careers.html">Careers</a> | 
+      <a href="blog.html">Blog</a> | 
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>&copy; 2025 Angular Consultancy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

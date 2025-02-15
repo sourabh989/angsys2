@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Consultancy - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- External Libraries --> 
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <img src="logos/translogo.png" alt="Angular Consultancy Logo" class="logo-header">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>We Find the Right People, So You Can Focus on Success</h1>
+      <p id="typed-text"></p>
+      <button class="cta-btn">Get a Free Hiring Strategy Session</button>
+    </section>
+    
+    <!-- Services Overview Section (with Tilt.js effects) -->
+    <section class="services-overview" data-aos="fade-up">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="service-card" data-tilt>Data Science &amp; AI Hiring</div>
+        <div class="service-card" data-tilt>BI &amp; Data Analytics Hiring</div>
+        <div class="service-card" data-tilt>Digital Marketing Talent</div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="fixed-footer">
+    <img src="logos/logo.png" alt="Angular Consultancy Logo" class="logo-footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="services.html">Services</a> |
+      <a href="careers.html">Careers</a> |
+      <a href="blog.html">Blog</a> |
+      <a href="contact.html">Contact</a>
+    </div>
+    <p>&copy; 2025 Angular Consultancy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
